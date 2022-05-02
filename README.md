@@ -4,7 +4,8 @@ Homework13/Project1
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+(Imaghttps://github.com/jpasenelli/CyberBootcamp/blob/main/ELK%20Network.drawio%20(1).pdfes/diagram_filename.png)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the install-elk.yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -110,7 +111,8 @@ In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Do
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+https://github.com/jpasenelli/CyberBootcamp/blob/main/ELK%20Installation%20Successful.png
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -122,6 +124,9 @@ These Beats allow us to collect the following information from each machine:
 
 Filebeat collects syslog hostnames and processes such as ssh log-ins
 Metricbeat shows memory usage, cpu usage, network io
+https://github.com/jpasenelli/CyberBootcamp/blob/main/Kibana%20Screenshot.png
+https://github.com/jpasenelli/CyberBootcamp/blob/main/Kibana%20Logs.png
+
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
@@ -141,4 +146,3 @@ Ansible-playbook install-ELK.yml
 Ansible-playbook filebeat-playbook.yml
 Ansible-playbook metricbeat-playbook.yml
 Ansible -m ping all
-
